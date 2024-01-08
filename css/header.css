@@ -1,0 +1,30 @@
+.header {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 55px;
+    background-color: rgba(21, 71, 148, 0.8);
+    font-size: 18px;
+    z-index: 20;
+    line-height: 55px;
+    font-family: 'Nunito';
+    font-style: normal;
+}
+
+.header nav {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header li {
+    display: inline-block;
+    color: white;
+    font-weight: 700;
+    margin: 0 20px;
+}
+
+.header a {
+    color: #fff;
+}

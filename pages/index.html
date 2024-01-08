@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Timeverse</title>
+    <link rel="stylesheet" href="../css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+
+<body>
+    <div class="container">
+        <!--top item start-->
+        <div class="top-item">
+            <!--header start-->
+            <header class="header h-[55px] flex top-0 left-0 bg-[rgba(21, 71, 148, 0.8)]">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="/">HOME</a>
+                        </li>
+                    </ul>
+                    <li class="right-item"></li>
+                </nav>
+            </header>
+            <!--header end-->
+
+            <!--logo-->
+            <img class="logo" src="../image//index/logo.png" alt="">
+
+            <!--background-->
+            <div class="background">
+                <div class="bk-div bk1"></div>
+                <div class="bk-div bk2"></div>
+                <div class="bk-div bk4"></div>
+                <div class="bk-div bk5"></div>
+                <div class="bk-div bk6"></div>
+                <div class="bk-div bk7"></div>
+                <div class="bk-div bk8">
+                    <div class="bird"></div>
+                </div>
+                <div class="bk-div bk9"></div>
+                <div class="bk-div bk10"></div>
+            </div>
+
+            <!--cloud-->
+            <img class="cloud" src="../image/index/parallax3b.png" alt="" srcset="">
+
+            <!--house-->
+            <div class="house"></div>
+        </div>
+        <!--top item end-->
+
+        <!--content-->
+        <div class="content">
+            <div id="content_container">
+                <div id="content_text_area">
+                    <span id="content_title">You're moving to the Valley...</span><br><br>
+
+                    You've inherited your grandfather's old farm plot in <span id="content_highlight">Stardew
+                        Valley</span>.<br>
+                    Armed with hand-me-down tools and a few coins, you set out to begin your new life!
+                    <hr>
+                </div>
+
+                <!--swiper-1-->
+
+                <div class="swiper-container">
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="../image/swiper/swiper1.png" alt="" srcset="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="../image/swiper/swiper2.png" alt="" srcset="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="../image/swiper/swiper3.png" alt="" srcset="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="../image/swiper/swiper4.png" alt="" srcset="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="../image/swiper/swiper5.png" alt="" srcset="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="../image/swiper/swiper6.png" alt="" srcset="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="nivo-prevNav"></div>
+                    <div class="nivo-nextNav"></div>
+
+                </div>
+
+
+                <hr>
+
+
+            </div>
+            <!--swiper2 start-->
+            <div class="swiper2-container">
+                <div class="swiper2">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide" onclick="contraolSwiper3(0)">
+                            <div class="cover">
+                                <div class="filler"></div>
+                                <img src="../image/swiper/swiper1.png" alt="" srcset="">
+                            </div>
+
+                            <p>环游世界</p>
+                        </div>
+                        <div class="swiper-slide" onclick="contraolSwiper3(1)">
+                            <div class="cover">
+                                <div class="filler"></div>
+                                <img src="../image/swiper/swiper2.png" alt="" srcset="">
+                            </div>
+
+                            <p>多种战斗方式</p>
+                        </div>
+                        <div class="swiper-slide" onclick="contraolSwiper3(2)">
+                            <div class="cover">
+                                <div class="filler"></div>
+                                <img src="../image/swiper/swiper3.png" alt="" srcset="">
+                            </div>
+
+                            <p>展现智慧与谋略</p>
+                        </div>
+                        <div class="swiper-slide" onclick="contraolSwiper3(3)">
+                            <div class="cover">
+                                <div class="filler"></div>
+                                <img src="../image/swiper/swiper4.png" alt="" srcset="">
+                            </div>
+
+                            <p>体验小镇生活</p>
+                        </div>
+                        <div class="swiper-slide" onclick="contraolSwiper3(4)">
+                            <div class="cover">
+                                <div class="filler"></div>
+                                <img src="../image/swiper/swiper5.png" alt="" srcset="">
+                            </div>
+
+                            <p>露天野餐</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="wall-nav">
+                    <button class="wall-prevNav disabled"></button>
+                    <button class="wall-nextNav"></button>
+                </div>
+
+            </div>
+            <!--swiper2 end-->
+
+            <!--swiper3 start-->
+            <div class="swiper3-container">
+                <div class="swiper3-background">
+                    <img src="../image/swiper/swiper1.png" alt="">
+                    <img src="../image/swiper/swiper2.png" alt="">
+                    <img src="../image/swiper/swiper3.png" alt="">
+                    <img src="../image/swiper/swiper4.png" alt="">
+                    <img src="../image/swiper/swiper5.png" alt="">
+                </div>
+                <button class="close-btn" onclick="contraolSwiper3()"></button>
+                <div class="main-content">
+                    <div class="text-container">
+                        <div>
+                            <h4>环游世界</h4>
+                            <p class="text-content">搭乘列车横跨这片衰败的土地，探索富有活力的城市、神秘的营地、还有阴暗的森林。</p>
+                        </div>
+                        <div>
+                            <h4>多种战斗方式</h4>
+                            <p class="text-content">用约翰的各种武器对抗怪物和它们凶狠的首领——喷火器或是“老朋友”煎锅。如果更喜欢温和的方式，那就试试珊的“能量冲击”吧。</p>
+                        </div>
+                        <div>
+                            <h4>展现智慧与谋略</h4>
+                            <p class="text-content">
+                                在约翰和珊之间进行切换，解决场景中的谜题，从可怕的地牢中逃生。你可以让两人分头行动，解锁隐藏的路径；或是在危险的地域中让两人相互配合以应对可能出现的危机。</p>
+                        </div>
+                        <div>
+                            <h4>体验小镇生活</h4>
+                            <p class="text-content">结识一群极富个性的奇人异士！他们的故事会为温暖人心的旅途增添一分趣味，神秘和怪诞的幽默。</p>
+                        </div>
+                        <div>
+                            <h4>露天野餐</h4>
+                            <p class="text-content">
+                                从剧毒的森林、被污染的矿坑、以及废弃的超市中寻到（基本上）新鲜的食材，制作诱人的美食。每一种菜肴都会为角色带来生命值与能力的提升，甚至是神秘的增益。</p>
+                        </div>
+                    </div>
+                    <div class="s-container">
+                        <div class="top-nav">
+                            <div class="sm-nav">
+                                <button>
+                                    <img src="../image/swiper/swiper1.png" alt="">
+                                </button>
+                                <button>
+                                    <img src="../image/swiper/swiper2.png" alt="">
+                                </button>
+                                <button>
+                                    <img src="../image/swiper/swiper3.png" alt="">
+                                </button>
+                                <button>
+                                    <img src="../image/swiper/swiper4.png" alt="">
+                                </button>
+                                <button>
+                                    <img src="../image/swiper/swiper5.png" alt="">
+                                </button>
+                            </div>
+                            <div class="wall-nav">
+                                <button class="wall-prevNav disabled"></button>
+                                <button class="wall-nextNav"></button>
+                            </div>
+                        </div>
+                        <div class="swiper3">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="../image/swiper/swiper1.png" alt="" srcset="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="../image/swiper/swiper2.png" alt="" srcset="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="../image/swiper/swiper3.png" alt="" srcset="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="../image/swiper/swiper4.png" alt="" srcset="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="../image/swiper/swiper5.png" alt="" srcset="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!--swiper3 end-->
+
+            <!--character introduction start-->
+            <hr>
+            <div id="content_text_area"><span id="content_title">Character</span></div>
+            <br>
+            <div id="character-introduction">
+                <div class="home-characters--wrap">
+                    <div class="home-characters--set">
+                        <div class="home-characters--list">
+                            <button class="home-characters--button is-active" onclick="onClickCharacter(0)">
+                                <img src="../image/role/john.png">
+                                <img src="../image/role/john_2.png">
+                            </button>
+                            <button class="home-characters--button" onclick="onClickCharacter(1)">
+                                <img src="../image/role/sam.png">
+                                <img src="../image/role/sam_2.png">
+                            </button>
+                            <button class="home-characters--button" onclick="onClickCharacter(2)">
+                                <img src="../image/role/alva.png">
+                                <img src="../image/role/alva_2.png">
+                            </button>
+                            <button class="home-characters--button" onclick="onClickCharacter(3)">
+                                <img src="../image/role/solomon.png">
+                                <img src="../image/role/solomon_2.png">
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="home-characters--cards">
+                    <div class="character-card is-john is-active">
+                        <div class="character-card--bio">
+                            <h4 class="character-card--title">约翰</h4>
+                            <p>约翰是一个沉默寡言的男人！和许多波特岛的居民一样，约翰在地底下生活了40多年，对地表的世界一无所知。在他像一位父亲一样承担起照顾珊的责任后，他的生活发生了天翻地覆的改变……作为一名矿工，约翰擅长使用爆炸物以及使用高超的战斗技巧来对抗盘踞在风来之国世界中的各种怪物。
+                            </p>
+                        </div>
+                        <div class="character-card--info">
+                            <div class="character-card--frame">
+                                <div class="character-card--sprite"></div>
+                            </div>
+                            <div class="character-card--row">
+                                <div>最喜欢的食物：</div>
+                                <div>亲子饭</div>
+                            </div>
+                            <div class="character-card--row">
+                                <div>喜欢：</div>
+                                <div>烹饪</div>
+                            </div>
+                            <div class="character-card--row">
+                                <div>讨厌：</div>
+                                <div>无意义的寒暄</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="character-card is-sam">
+                        <div class="character-card--bio">
+                            <h4 class="character-card--title">珊</h4>
+                            <p>矿工约翰因为某种神秘的原因在地底深处发现了珊……尽管珊看上去娇小，但是她能驾驭特殊的动力能量，而这能量的潜力更是她没有意识到的！珊勇敢而善良，除了有灵活的头脑，还有调皮捣蛋的性格！
+                            </p>
+                        </div>
+                        <div class="character-card--info">
+                            <div class="character-card--frame">
+                                <div class="character-card--sprite"></div>
+                            </div>
+                            <div class="character-card--row">
+                                <div>最喜欢的食物：</div>
+                                <div>约翰做的菜</div>
+                            </div>
+                            <div class="character-card--row">
+                                <div>喜欢：</div>
+                                <div>玩《大地之子》</div>
+                            </div>
+                            <div class="character-card--row">
+                                <div>讨厌：</div>
+                                <div>史莱姆；被错认成其他人</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="character-card is-alva">
+                        <div class="character-card--bio">
+                            <h4 class="character-card--title">艾娃</h4>
+                            <p>她是新大坝城的公主，但同时也是“书呆子”一般的工程师。艾娃放弃了优裕的生活和惊人的财富，一心只为发明创造，利用发明来帮助他人。艾娃和女友伊莎贝尔共同经营着她们的实验室，并全情投入到火箭的研究事业中。艾娃活泼又聪明，深受其他人的喜爱。
+                            </p>
+                        </div>
+                        <div class="character-card--info">
+                            <div class="character-card--frame">
+                                <div class="character-card--sprite"></div>
+                            </div>
+                            <div class="character-card--row">
+                                <div>最喜欢的食物：</div>
+                                <div>咖喱</div>
+                            </div>
+                            <div class="character-card--row">
+                                <div>喜欢：</div>
+                                <div>伊莎贝尔；发明</div>
+                            </div>
+                            <div class="character-card--row">
+                                <div>讨厌：</div>
+                                <div>赌博；抽烟</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="character-card is-solomon">
+                        <div class="character-card--bio">
+                            <h4 class="character-card--title">所罗门</h4>
+                            <p>所罗门看起来像个朋克小子，但有流言将他称为“毁灭者”——那些最初为人类带来死亡的人之一。在约翰和珊的旅途中，所罗门的强大以及他带来的威胁愈发明显，直至二人不得不直面这一邪恶的对手……
+                            </p>
+                        </div>
+                        <div class="character-card--info">
+                            <div class="character-card--frame">
+                                <div class="character-card--sprite"></div>
+                            </div>
+                            <div class="character-card--row">
+                                <div>最喜欢的食物：</div>
+                                <div>军粮</div>
+                            </div>
+                            <div class="character-card--row">
+                                <div>喜欢：</div>
+                                <div>毁灭世界；跳舞</div>
+                            </div>
+                            <div class="character-card--row">
+                                <div>讨厌：</div>
+                                <div>不被人关注的感觉</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--character introduction end-->
+            <hr>
+
+            <div id="content_text_area">
+                <span id="content_title">Features</span>
+                <br>
+                <br>
+                <ul>
+                    <li><span id="content_highlight">Create the farm of your dreams:</span> Turn your overgrown fields
+                        into a lively and bountiful farm!</li>
+                    <li><span id="content_highlight">Learn to live off the land:</span> Raise animals, go fishing, tend
+                        to crops, craft items, or do it all! The choice is yours...</li>
+                    <li><span id="content_highlight">Become a part of the local community:</span> Pelican Town is home
+                        to over 30 residents you can befriend!</li>
+                    <li><span id="content_highlight">Meet someone special:</span> With 12 townsfolk to date, you may
+                        even find someone to start a family with!</li>
+                    <li><span id="content_highlight">Explore vast, mysterious caves:</span> Encounter dangerous monsters
+                        &amp; valuable treasures deep underground!</li>
+                    <li><span id="content_highlight">Customize:</span> There are hundreds of character &amp; home
+                        decoration options to choose from!</li>
+                </ul>
+                <br>
+                <hr class="border">
+
+
+
+                <!--platform_logos start-->
+                <div id="platform_logos">
+                    <ul class="mainpage_logos">
+                        <li>
+                            <a href="http://store.steampowered.com/app/413150/Stardew_Valley/"><img
+                                    src="../image/index/STEAM_logo.png" alt="Stardew Valley on Steam"
+                                    id="steam_logo"></a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.humblebundle.com/store/stardew-valley"><img
+                                    src="../image/index/HUMBLESTORE_logo.png" alt="Stardew Valley on the Humble Store"
+                                    id="humble_logo"></a>
+                        </li>
+
+                        <li><a href="https://www.gog.com/game/stardew_valley"><img src="../image/index/GOG_logo.png"
+                                    alt="Stardew Valley on GOG" id="gog_logo"></a></li>
+
+                        <li><a href="https://www.microsoft.com/en-gb/store/p/stardew-valley/c3d891z6tnqm"><img
+                                    src="../image/index/XBOXOne_logo.png" alt="Stardew Valley on Xbox One"
+                                    id="xbox_logo"></a></li>
+
+                        <li><a href="https://www.playstation.com/en-us/games/stardew-valley-ps4/"><img
+                                    src="../image/index/PS4_logo.png" alt="Stardew Valley on PS4" id="ps4_logo"></a>
+
+                        </li>
+
+                        <li>
+                            <a href="https://www.nintendo.com/games/detail/stardew-valley-switch/"><img
+                                    src="../image/index/NintendoSwitch_logo.png" alt="Stardew Valley on Nintendo Switch"
+                                    id="switch_logo"></a>
+                        </li>
+                    </ul>
+
+                    <ul class="mainpage_logos mainpage_logos2">
+                        <li style="padding-right:25px;"><a
+                                href="https://apps.apple.com/us/app/stardew-valley/id1406710800"><img
+                                    src="../image/index/iOS_logo.png" alt="Stardew Valley on iOS" id="iOS_logo"></a>
+                        </li>
+                        <li><a
+                                href="https://play.google.com/store/apps/details?id=com.chucklefish.stardewvalley&amp;hl=en_US"><img
+                                    src="../image/index/android_logo.png" alt="Stardew Valley on Android"
+                                    id="android_logo"></a></li>
+                    </ul>
+
+                    <ul class="mainpage_logos mainpage_logos2">
+
+                        <li class="ratings"><a href="https://pegi.info/" title="" target="new"><img id="PEGI"
+                                    src="../image/index/PEGI.png" style="height:auto;width:55px;"></a></li>
+                        <li class="ratings"><a href="http://classification.gov.au" title="" target="new"><img id="ACB"
+                                    src="../image/index/ACB_Rating_PG.png" style="height:auto;width:68px;"></a></li>
+                        <li class="ratings"><a href="http://www.usk.de" title="" target="new"><img id="USK"
+                                    src="../image/index/USK_6.png" style="height:auto;width:65px;"></a></li>
+                        <li class="ratings">
+                            <div style="border:2px solid black;height:68px; min-width: 172px;"><a
+                                    href="http://esrb.org/" title="" target="new"><img id="ESRB"
+                                        src="../image/index/ESRB_Rating.png"
+                                        style="float:left;height:auto;width:43px;"></a>
+                                <div
+                                    style="font-size:8px; color:black; font-weight:bold; padding-right:10px;padding-left:3px; line-height:11px;display:inline-grid;padding-top:3px; text-align:left;vertical-align:top;">
+                                    Fantasy Violence<br>
+                                    Mild Blood<br>
+                                    Mild Language<br>
+                                    Simulated Gambling<br>
+                                    Use of Alcohol and Tobacco<br></div>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+                <!--platform_logos end-->
+
+                <!--footer start-->
+                <div id="mainpage_footer">
+                    <a href="https://twitter.com/concernedape" target="_blank"><img
+                            src="https://stardewvalley.net/wp-content/uploads/2017/12/ca_logo.png" alt="ConcernedApe"
+                            id="concernedape_logo"></a>
+                    <br><br>
+                    <div style="text-align: center;">Stardew Valley Copyright © 2016-2024 ConcernedApe LLC</div><br>
+                    <div style="text-align: center;">The term “Grange” is a registered trademark of the National Grange
+                        of the Order of Patrons of Husbandry.</div>
+                </div>
+                <!--footer end-->
+
+            </div>
+        </div>
+
+
+    </div>
+    <!--content end-->
+
+
+
+
+
+    <!--script-->
+    <script src="../js/swiper-bundle.min.js"></script>
+    <script src="../js/index.js"></script>
+</body>
+
+</html>
