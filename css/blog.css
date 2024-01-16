@@ -1,0 +1,118 @@
+.container {
+    background: url(../image/index/sdv_divider_bk.png) no-repeat fixed center center / cover;
+    image-rendering: pixelated;
+}
+
+/**top item start*/
+.top-item {
+    overflow: hidden;
+    position: relative;
+}
+
+.top-item .logo-div {
+    margin-bottom: 70px;
+}
+
+.top-item .logo-div img {
+    display: block;
+    margin: 0 auto;
+}
+
+.top-item .logo-div .logo {
+    margin-top: 80px;
+    width: 39%;
+}
+
+.top-item .logo-div .dev-logo {
+    margin-top: 40px;
+    width: 25%;
+}
+
+
+
+/**top item end*/
+
+/**
+blog start*/
+.blog-div {
+    padding: 0 5%;
+}
+
+.blog-div .blog-item {
+    margin-bottom: 40px;
+    color: #252525;
+    border: 10px solid transparent;
+    padding: 30px;
+    padding-top: 15px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    -webkit-border-image: url(../image/blog/menu_border_noshadowtopleft.png) 25 stretch;
+    -o-border-image: url(../image/blog/menu_border_noshadowtopleft.png) 33 stretch;
+    border-image: url(../image/blog/menu_border_noshadowtopleft.png) 33 stretch;
+    border-image-slice: 33%;
+    background-color: #ffffcc;
+    display: inline-block;
+}
+
+.blog-div .avatar-div {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 10px
+}
+
+.blog-div .avater {
+    overflow: hidden;
+    width: 75px;
+    height: 75px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.blog-div .avater img {
+    width: 100%;
+    height: 100%;
+}
+
+.blog-div .title {
+    color: #663300;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.blog-div .subtitle {
+    font-size: 1em;
+    line-height: 1em;
+}
+
+.blog-div .post-tag {
+    color: #ff6633;
+    font-weight: 700;
+}
+
+.blog-div .post-tag i {
+    font-style: normal;
+    color: #0066cc;
+}
+
+.blog-div .content {
+    padding-top: 25px;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.blog-div .content p {
+    margin-bottom: 10px;
+}
+
+.blog-div .content img {
+    max-width: 100%;
+    display: block;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+/**
+blog end*/
